@@ -1,0 +1,27 @@
+h1 {
+  font-size: 2rem;
+  color: #fcf3ec;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+.box {
+  background-color: #fcf3ec;
+  width: 900px;
+  height: 500px;
+  display: inline-block;
+  margin-top: 4rem;
+  box-shadow: 0 8px 6px -6px black;
+  border-radius: 10px;
+}
+
+.description {
+  display: table-column;
+  margin: 6%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  float: right;
+}

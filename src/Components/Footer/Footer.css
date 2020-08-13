@@ -1,0 +1,15 @@
+.copyrights {
+  float: right;
+  font-size: 10px;
+  color: #fcf3ec;
+  margin-right: 10px;
+}
+
+footer {
+  margin-top: 40px;
+}
+
+.icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
