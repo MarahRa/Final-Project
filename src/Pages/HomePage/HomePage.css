@@ -25,3 +25,8 @@ h1 {
   font-size: 15px;
   float: right;
 }
+
+img {
+  margin-top: 5rem;
+  margin-left: 5rem;
+}

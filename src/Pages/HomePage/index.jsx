@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomePage.css";
+import Logo from "../../logo.png";
 
 const HomePage = () => (
   <>
@@ -15,6 +16,8 @@ const HomePage = () => (
         <p className="description">
           If you want us to take your photos, please contact us
         </p>
+        <img src={Logo} alt="logo" />
+        <p>Welcome to our gallery</p>
       </div>
     </div>
   </>
