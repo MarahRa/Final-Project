@@ -3,6 +3,7 @@ h1 {
   color: #fcf3ec;
   margin-top: 5rem;
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
@@ -12,14 +13,14 @@ h1 {
   background-color: #fcf3ec;
   width: 900px;
   height: 500px;
-  display: inline-block;
   margin-top: 4rem;
   box-shadow: 0 8px 6px -6px black;
   border-radius: 10px;
+  display: inline-block;
 }
 
 .description {
-  display: table-column;
+  flex-wrap: wrap;
   margin: 6%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;

@@ -16,15 +16,13 @@ library.add(fab, faFacebook, faTwitter, faInstagram);
 function App() {
   return (
     <>
-      <body>
-        <Switch>
-          <Route path="/Home" exact component={HomePage} />
-          <Route path="/About" exact component={AboutPage} />
-          <Route path="/Gallery" exact component={GalleryPage} />
-          <Route path="/Contact" exact component={ContactPage} />
-        </Switch>
-        <Footer />
-      </body>
+      <Switch>
+        <Route path="/Home" exact component={HomePage} />
+        <Route path="/About" exact component={AboutPage} />
+        <Route path="/Gallery" exact component={GalleryPage} />
+        <Route path="/Contact" exact component={ContactPage} />
+      </Switch>
+      <Footer />
     </>
   );
 }

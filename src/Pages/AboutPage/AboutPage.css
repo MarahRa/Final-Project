@@ -1,0 +1,61 @@
+.h2 {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fcf3ec;
+  margin-top: 4rem;
+}
+
+hr {
+  margin: auto;
+  background-color: #fcf3ec;
+  align-items: center;
+  width: 12%;
+  height: 1px;
+}
+
+.background-block {
+  background-color: #463c47;
+  text-align: center;
+  width: 100%;
+}
+
+.services {
+  height: 50px;
+  display: inline-block;
+  margin: 10%;
+  margin-top: 5%;
+}
+
+.text-services {
+  font-size: 15px;
+  color: #fcf3ec;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  margin: 5%;
+}
+
+.text-team {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fcf3ec;
+  display: block;
+  width: 30%;
+  margin-top: 5%;
+  margin-left: 6%;
+  line-height: 26pt;
+}
+
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 20%;
+  max-height: 20%;
+}
+
+.team-member {
+  width: 115px;
+  height: 100px;
+  margin: 10px;
+}
