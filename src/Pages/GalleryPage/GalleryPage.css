@@ -1,0 +1,21 @@
+.container {
+  text-align: center;
+}
+
+.Collapsible__trigger {
+  background-color: #734548;
+  width: 30%;
+  display: block;
+  margin: auto;
+  margin-top: 10%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fcf3ec;
+  font-size: 15px;
+  height: 22px;
+  text-decoration: none;
+}
+
+.Collapsible__trigger:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

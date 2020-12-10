@@ -1,0 +1,11 @@
+.container {
+  align-items: center;
+}
+
+img {
+  width: 35%;
+}
+
+button {
+  display: inline-block;
+}

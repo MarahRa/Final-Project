@@ -3,7 +3,7 @@ h1 {
   color: #fcf3ec;
   margin-top: 5rem;
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: bold 14px/1.4 "Open Sans", arial, sans-serif;
 }
 
 .container {
@@ -22,7 +22,7 @@ h1 {
 .description {
   flex-wrap: wrap;
   margin: 6%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: bold 14px/1.4 "Open Sans", arial, sans-serif;
   font-size: 15px;
   float: right;
 }
