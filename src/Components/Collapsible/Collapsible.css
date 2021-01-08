@@ -1,0 +1,21 @@
+.collapsible-label {
+  cursor: pointer;
+  font-family: "Open Sans", arial, sans-serif;
+  color: #fcf3ec;
+  background-color: #463c47;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.collapsible-content {
+  overflow: hidden;
+  opacity: 0;
+  max-height: 0;
+  transition: opacity 0.1s linear, max-height 0.1s linear;
+}
+
+.collapsible-content.open {
+  opacity: 1;
+  max-height: 500px;
+  transition: opacity 0.2s linear, max-height 0.2s linear;
+}

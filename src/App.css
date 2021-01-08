@@ -1,7 +1,7 @@
 body {
   background-image: url(https://www.howitworksdaily.com/wp-content/uploads/2010/10/sunset-288531_1280.jpg);
   height: 100%;
-  background-size: 100%;
+  background-size: cover;
   margin: 0;
   font-size: calc(10px + 2vmin);
 }

@@ -7,6 +7,10 @@ li {
   font-size: 20px;
 }
 
+nav ul li a {
+  font-size: calc(10px + 1vmax);
+}
+
 a {
   text-decoration: none;
   color: inherit;

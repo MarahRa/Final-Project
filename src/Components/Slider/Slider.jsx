@@ -1,34 +1,39 @@
 import React from "react";
+import { useEffect } from "react";
 import { useState } from "react";
-import "./Slider.css"
-import moon from "../../landscape1.jpg"
-import hand from "../../landscape2.jpg"
-import mountain from "../../landscape3.jpg"
-import sky from "../../landscape4.jpg"
-import lake from "../../landscape5.jpg"
+import "./Slider.css";
 
+const Slider = ({ images }) => {
+  const [state, setState] = useState(0);
 
+  useEffect(() => {
+    const timer = setInterval(toTheRight, 3000);
+    return () => clearInterval(timer);
+  });
 
-const Slider = () => {
-const[state, setState] = useState(0)
-let images = [moon, hand, mountain, sky, lake]
+  const toTheRight = () => {
+    setState((state + 1) % images.length);
+  };
 
-const toTheRight = () => {
-  setState((state + 1) % images.length);
-}
+  const toTheLeft = () => {
+    setState((state - 1 + images.length) % images.length);
+  };
 
-const toTheLeft = () => {
-  setState((state - 1) % images.length);
-}
-
-return (
-  <div className="container">
-    <button onClick={toTheLeft}>{"<"}</button>
-    <img src={images[state]} alt={state}/>
-<button onClick={toTheRight}>{">"}</button>
-  </div>
-)
+  return (
+    <div className="slider-container">
+      <button className="arrow-left" onClick={toTheLeft}>
+        {"<"}
+      </button>
+      <img
+        className="photos"
+        src={images[state].img}
+        alt={images[state].title}
+      />
+      <button className="arrow-right" onClick={toTheRight}>
+        {">"}
+      </button>
+    </div>
+  );
 };
-
 
 export default Slider;

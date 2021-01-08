@@ -1,0 +1,50 @@
+.form-container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.Form {
+  background: #fcf3ec;
+  padding: 30px;
+  margin: 50px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+label {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+  font-size: 20px;
+}
+
+input {
+  width: 95%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 10px;
+  padding: 10px;
+}
+
+textarea {
+  width: 95%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+  resize: vertical;
+}
+
+.submit-button {
+  cursor: pointer;
+  width: 101%;
+  border: none;
+  background: #362933;
+  color: #fea610;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
