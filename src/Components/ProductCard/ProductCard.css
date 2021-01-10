@@ -1,0 +1,8 @@
+.product-container {
+  display: flex;
+}
+
+.product-options {
+  width: 50%;
+  padding: 10%;
+}

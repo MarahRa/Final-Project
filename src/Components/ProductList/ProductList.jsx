@@ -31,9 +31,10 @@ const images = [
   { img: livingRoom, title: "living Room", cost: 150 },
 ];
 
-const ProductList = () =>
+const ProductList = ({ addToCart }) =>
   images.map((image, index) => (
     <ProductCard
+      addToCart={addToCart}
       img={image.img}
       name={image.title}
       price={image.cost}

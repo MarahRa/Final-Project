@@ -1,3 +1,9 @@
+.shop-container {
+  background: pink;
+  margin-top: -11px;
+  margin-bottom: -72px;
+}
+
 .store {
   color: #fcf3ec;
   font-family: Verdana, Geneva, Tahoma, sans-serif;

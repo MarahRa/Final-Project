@@ -6,7 +6,7 @@ const ShoppingCartIcon = ({ items }) => (
     <span role="img" aria-label="Shopping Cart">
       🛒
     </span>
-    {items && <span className="shopping-cart-amount">{items}</span>}
+    {Boolean(items) && <span className="shopping-cart-amount">{items}</span>}
   </div>
 );
 
