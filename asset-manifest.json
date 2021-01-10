@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Final-Project/static/css/main.2c020fea.chunk.css",
+    "main.js": "/Final-Project/static/js/main.9fe547cb.chunk.js",
+    "main.js.map": "/Final-Project/static/js/main.9fe547cb.chunk.js.map",
+    "runtime-main.js": "/Final-Project/static/js/runtime-main.6e25d906.js",
+    "runtime-main.js.map": "/Final-Project/static/js/runtime-main.6e25d906.js.map",
+    "static/js/2.479cffea.chunk.js": "/Final-Project/static/js/2.479cffea.chunk.js",
+    "static/js/2.479cffea.chunk.js.map": "/Final-Project/static/js/2.479cffea.chunk.js.map",
+    "index.html": "/Final-Project/index.html",
+    "precache-manifest.1368ce18a139f6aa4543f29ca5be45c3.js": "/Final-Project/precache-manifest.1368ce18a139f6aa4543f29ca5be45c3.js",
+    "service-worker.js": "/Final-Project/service-worker.js",
+    "static/css/main.2c020fea.chunk.css.map": "/Final-Project/static/css/main.2c020fea.chunk.css.map",
+    "static/js/2.479cffea.chunk.js.LICENSE.txt": "/Final-Project/static/js/2.479cffea.chunk.js.LICENSE.txt",
+    "static/media/John.jpg": "/Final-Project/static/media/John.05c8cc11.jpg",
+    "static/media/Kate.jpg": "/Final-Project/static/media/Kate.f763da7f.jpg",
+    "static/media/Sam.jpg": "/Final-Project/static/media/Sam.02d16a14.jpg",
+    "static/media/Sarah.jpg": "/Final-Project/static/media/Sarah.4e341538.jpg",
+    "static/media/art.png": "/Final-Project/static/media/art.bca49285.png",
+    "static/media/asian.jpg": "/Final-Project/static/media/asian.4fcf94b8.jpg",
+    "static/media/blue.jpg": "/Final-Project/static/media/blue.c2146b77.jpg",
+    "static/media/forest.png": "/Final-Project/static/media/forest.bb926d9c.png",
+    "static/media/hijabi.jpg": "/Final-Project/static/media/hijabi.0e1d1f0e.jpg",
+    "static/media/image-2.jpg": "/Final-Project/static/media/image-2.ac6749b0.jpg",
+    "static/media/landscape1.jpg": "/Final-Project/static/media/landscape1.48f82304.jpg",
+    "static/media/landscape2.jpg": "/Final-Project/static/media/landscape2.60025409.jpg",
+    "static/media/landscape3.jpg": "/Final-Project/static/media/landscape3.856b391f.jpg",
+    "static/media/landscape4.jpg": "/Final-Project/static/media/landscape4.be7c7b71.jpg",
+    "static/media/landscape5.jpg": "/Final-Project/static/media/landscape5.48eaa866.jpg",
+    "static/media/livingroom.jpg": "/Final-Project/static/media/livingroom.f0502f0b.jpg",
+    "static/media/man2.jpg": "/Final-Project/static/media/man2.0eb108c7.jpg",
+    "static/media/mansion.jpg": "/Final-Project/static/media/mansion.12e6e680.jpg",
+    "static/media/property.png": "/Final-Project/static/media/property.5a89f630.png",
+    "static/media/subway.jpg": "/Final-Project/static/media/subway.f03a1f68.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e25d906.js",
+    "static/js/2.479cffea.chunk.js",
+    "static/css/main.2c020fea.chunk.css",
+    "static/js/main.9fe547cb.chunk.js"
+  ]
+}
