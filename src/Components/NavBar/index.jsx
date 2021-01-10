@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import ShoppingCartIcon from "../ShoppingCartIcon";
 import "./NavBar.css";
 
 const NavBar = () => (
@@ -7,7 +8,7 @@ const NavBar = () => (
     <nav>
       <ul>
         <li>
-          <NavLink to="./Home">Home</NavLink>
+          <NavLink to="./">Home</NavLink>
         </li>
         <li>
           <NavLink to="./About">About</NavLink>
@@ -16,10 +17,14 @@ const NavBar = () => (
           <NavLink to="./Gallery">Gallery</NavLink>
         </li>
         <li>
+          <NavLink to="./Shop">Shop</NavLink>
+        </li>
+        <li>
           <NavLink to="./Contact">Contact</NavLink>
         </li>
       </ul>
     </nav>
+    <ShoppingCartIcon items={2} />
   </header>
 );
 

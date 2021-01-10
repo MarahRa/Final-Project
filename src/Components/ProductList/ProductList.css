@@ -1,0 +1,13 @@
+.images {
+  display: flex;
+  width: 700px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.images .products {
+  width: 100%;
+  object-fit: cover;
+  margin-left: 0px;
+  margin-top: 10px;
+}

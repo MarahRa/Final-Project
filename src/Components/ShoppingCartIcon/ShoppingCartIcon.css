@@ -1,0 +1,26 @@
+.shopping-cart-icon {
+  font-size: 1.5em;
+  margin-right: 2em;
+  position: relative;
+}
+
+.shopping-cart-amount {
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background: green;
+}
+
+.shopping-cart-amount {
+  right: -15px;
+  color: white;
+  position: absolute;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  background: green;
+  text-align: center;
+  padding: 0.125em;
+  font-size: 14px;
+}

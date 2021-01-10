@@ -10,6 +10,7 @@ import {
   faTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import ShopPage from "./Pages/ShopPage";
 
 library.add(fab, faFacebook, faTwitter, faInstagram);
 
@@ -17,9 +18,10 @@ function App() {
   return (
     <>
       <Switch>
-        <Route path="/Home" exact component={HomePage} />
+        <Route path="/" exact component={HomePage} />
         <Route path="/About" exact component={AboutPage} />
         <Route path="/Gallery" exact component={GalleryPage} />
+        <Route path="/Shop" exact component={ShopPage} />
         <Route path="/Contact" exact component={ContactPage} />
       </Switch>
       <Footer />
