@@ -6,3 +6,15 @@
   width: 50%;
   padding: 10%;
 }
+
+.product-name {
+  color: #fcf3ec;
+  font-size: 3vmin;
+  margin-left: 5vmin;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.product-price {
+  color: #fcf3ec;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5vmin;
+}

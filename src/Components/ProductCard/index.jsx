@@ -3,6 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import Input from "@material-ui/core/Input";
 import Slider from "@material-ui/core/Slider";
 import "./ProductCard.css";
+import Button from "@material-ui/core/Button";
 
 export const sizes = [
   {
@@ -51,8 +52,8 @@ export const ProductCard = ({ addToCart, price, name, img }) => {
     });
   return (
     <div>
-      <h2>{name}</h2>
-      <h4>{price}</h4>
+      <h2 className="product-name">{name}</h2>
+      <h4 className="product-price">£{price}</h4>
       <div className="product-container">
         <img width="50%" src={img} alt={name} />
         <div className="product-options">
@@ -91,12 +92,16 @@ export const ProductCard = ({ addToCart, price, name, img }) => {
               />
             </Grid>
           </Grid>
-          <button disabled={!quantity} onClick={addToCartHandler}>
+          <Button
+            variant="contained"
+            color="primary"
+            disabled={!quantity}
+            onClick={addToCartHandler}
+          >
             Add to cart
-          </button>
+          </Button>
         </div>
       </div>
-      <hr />
     </div>
   );
 };

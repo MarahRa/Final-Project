@@ -25,12 +25,16 @@ const App = () => {
   const addToCart = (product) => {
     setCart([...cart, product]);
   };
-  const removeItemFroCart = event => setCart(cart.filter((_, index) => index !== +event.target.dataset.index))
+  const removeItemFroCart = event => setCart(cart.filter((_, index) => index !== +event.currentTarget.dataset.index))
+  const completePurchase = () => {
+    alert("Thanks for your purchase!")
+    setCart([])
+  }
   return (
     <>
       <NavBar cart={cart} openCart={toggleDrawer} />
       <Drawer anchor="right" open={openDrawer} onClose={toggleDrawer}>
-        <ShoppingCart cart={cart} removeItemFroCart={removeItemFroCart} />
+        <ShoppingCart cart={cart} completePurchase={completePurchase} removeItemFroCart={removeItemFroCart} />
       </Drawer>
       <Switch>
         <Route path="/" exact component={HomePage} />

@@ -6,7 +6,8 @@ header {
   position: fixed;
   width: 100vw;
   top: 0;
-  background: grey;
+  background: #463c47;
+  box-shadow: 0px 5px 5px #463c47;
 }
 
 li {

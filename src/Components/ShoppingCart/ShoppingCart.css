@@ -1,0 +1,15 @@
+.cart-container {
+  padding: 1vmin;
+  min-width: 50vw;
+}
+
+.cart-container th,
+.cart-container td {
+  min-width: 10vw;
+  text-align: right;
+  border-bottom: 1px blue solid;
+}
+
+.cart-container tr {
+  border-bottom: 1px blue solid;
+}

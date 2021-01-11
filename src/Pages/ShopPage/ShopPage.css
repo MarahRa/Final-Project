@@ -1,6 +1,5 @@
 .shop-container {
-  background: pink;
-  margin-top: -11px;
+  background: #463c47;
   margin-bottom: -72px;
 }
 
@@ -8,4 +7,9 @@
   color: #fcf3ec;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+}
+
+.MuiInputBase-input,
+.MuiSlider-markLabel {
+  color: rgba(255, 255, 255, 0.87) !important;
 }
